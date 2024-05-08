@@ -1,0 +1,160 @@
+.title {
+    background-image: url(./images/Abstract-Website-Background.jpg);
+    background-size: 100%;
+    width: auto;
+    height: 500px;
+    box-shadow: 100px 10px 100px black;
+    z-index: 1;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    background-color: #EEF7FF80;
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 100px 10px 100px black;
+    position: relative;
+    top: 50px;
+}
+
+.h1 {
+    font-size: 3rem;
+    padding-left: 50px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    
+}
+
+.h1p {
+    padding-left: 55px;
+    font-size: 24px;
+    color: hsl(197, 73%, 15%);
+    font-weight: 600;
+}
+
+.astronut {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 310px;
+    left: 300px;
+    z-index: 2;
+}
+
+.rocket {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 10px;
+    z-index: 2;
+}
+
+.cake {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 270px;
+    left: 600px;
+    z-index: 2;
+}
+
+.ufo {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 600px;
+    z-index: 2;
+}
+
+.planet {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 10px;
+    right: 50px;
+    z-index: 1;
+    box-shadow: 10px 10px 10px 10px black;
+    border-radius: 50%;
+}
+
+.btn-group {
+    width: 900px;
+}
+
+.title2 {
+    background-image: url(./images/Abstract-Website-Background.jpg);
+    background-size: 100%;
+    width: auto;
+    height: 500px;
+    box-shadow: 100px 10px 100px black;
+    z-index: 1;
+    position: static;
+    top: 900px;
+}
+
+.About {
+    width: 50%;
+    height: 400px;
+    background-color: #EEF7FF80;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    box-shadow: 50px 50px 50px 50px black;
+    border-radius: 10px;
+    
+}
+
+h3 {
+    font-family: "Merriweather", serif;
+    color: hsl(197, 73%, 15%);
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.cat {
+    position:absolute;
+    top: 50px;
+    right: 20px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px black;
+}
+
+li {
+    font-size: 24px;
+}
+
+
+@media (max-width:1200px){
+    img {
+        visibility: hidden;
+    }
+    
+}
+
+@media (max-width:900px) {
+    .header {
+        width: 100%;
+    }
+    .h1{
+        font-size: 2rem;
+    }
+    .h1p {
+        font-size: 12px;
+    }
+    }
+    
+
+
